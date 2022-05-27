@@ -1,0 +1,133 @@
+*{margin: 0; padding: 0;}
+a{text-decoration: none; color:#000;}
+ul{list-style: none;}
+
+body{
+    font-family: '나눔바른고딕OTF';
+    font-size: 20px;
+    font-weight: 22px;
+    color: #000;
+}
+
+
+#header{width:1320px; height: 250px; margin:0 auto; position:relative;}
+.logo{position:absolute; top:20px; left:30%; margin-left:142px;
+  /* top:20px; left:50%; margin-left:이미지반사이즈 */
+ }
+.nav{position:absolute; top:200px; left:50%; margin-left:-303.36px; /*로고이미지 작업후 변경필수*/}
+.nav li{float:left;}
+.nav li a{display:block; padding:10px 35px;}
+.nav li a:hover{color: darkred;}
+
+
+#banner{
+    width: 1320px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+#banner2{
+    width: 1320px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#con{
+    width: 1320px;
+    height: 1700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.icon1{
+    padding-top: 30px;
+}
+h2{
+    padding-top: 55px;
+}
+span{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.icon2{
+    padding-top: 150px;
+}
+h3{
+    padding-top: 50px;
+    font-size: 28px;
+}
+.ta{
+    padding:30px;
+}
+
+.icon3{
+    width: 1320px;
+    height: 700px;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    background: url(images/gkeksbanner.jpg) no-repeat 80% 60%;
+}
+h4{
+    padding-top: 30px;
+    font-size: 28px;
+}
+
+
+#banner3{
+    width: 1320px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#footer2{
+    width: 1320px;
+    height: 350px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #000;
+    position: relative;
+  }
+  
+  h6{
+      color: #fff;
+      float: left;
+      font-size: 20px;
+      font-family: '상주경천섬체';
+     position: absolute; left: 100px; top: 30px;
+
+  }
+
+  .fa li{
+    float: left;
+
+  }
+  
+  .fa li a{
+    display: block;
+    color: #fff;
+
+
+  }
+
+  .fa li:nth-child(1){
+    position: absolute; left: 100px; top: 60px; 
+  }
+  
+  .fa li:nth-child(2){
+      position: absolute; left: 100px; top: 90px;
+  }
+ 
+  .fa li:nth-child(3){
+      position: absolute; left: 100px; top: 120px;
+  }
+  .fo{
+    color: #fff;
+    font-size: 10px;
+    position: absolute; left: 100px; top: 250px;
+  }
